@@ -8,20 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="./imagens/307218263_650060566736347_7793351667994975541_n.jpg" alt="Vinicius Lacerda de camisa listrada em frente ao Cristo Redentor" width = 400px class="hero-image">
+    <div class="box-image">
+    <img class="hero-image" src="./imagens/307218263_650060566736347_7793351667994975541_n.jpg" alt="Vinicius Lacerda de camisa listrada em frente ao Cristo Redentor">
+    </div>
 
-    <h1>Oi, eu sou o Vini, é um prazer conhecer você!</h1>
-    <hr>
+    <header class = "cabeçalho">
+      <h1>Oi, eu sou o Vini, é um prazer conhecer você!</h1>  
+    </header>
 
+    <main>
+    <section class = "biography">
+    <!-- <hr> --> 
     <h2>Quem sou eu?</h2>
 
-    <p class = "hero-biografy">Comecei minha jornada tech em 2019 ao adentrar a faculdade de Ciências da Computação, mas após 2 anos de curso e pouco aprofundamento em programação, decidi tentar a trybe afim de me tornar um dev jr!</p>
+    <p >Comecei minha jornada tech em 2019 ao adentrar a faculdade de Ciências da Computação, mas após 2 anos de curso e pouco aprofundamento em programação, decidi tentar a trybe afim de me tornar um dev jr!</p>
+    </section>
 
+    <!-- <hr> -->
+    <nav class = 'social-network'>
     <h2>Minhas redes</h2>
-
-    <hr>
     <ul>
-      
         <li> 
             <a href="https://www.linkedin.com/in/vinni-lacerda/">Linkedin</a>
         </li>
@@ -35,14 +41,17 @@
             <a href="https://www.instagram.com/vinni_ls/">Instagram</a>
         </li>
     </ul>
-    <hr>
-
+    </nav>
+    <!-- <hr> -->
+    <section class ="perks">
     <h2>Competencias</h2>
     <ul>
-        <li class="trybe-item-list">Curso Trybe de WebDeveloper(em curso)</li>
+        <li class="trybe-item-list impar-item">Curso Trybe de WebDeveloper(em curso)</li>
         <li class="cev-item-list">Curso de javascript iniciante pelo Curso em Video</li>
-        <li class="origamid-item-list">Curso web intermediario pela Origamid</li>
+        <li class="origamid-item-list impar-item">Curso web intermediario pela Origamid</li>
         <li class="ingles-item-list">Curso de inglês completo pelo Okey Dokey</li>
     </ul>
+    </section>
+</main>
 </body>
 </html>
