@@ -1,0 +1,59 @@
+ol li{
+    background-color: yellow;
+}
+
+.par{
+    color: green;
+}
+
+ .impar{
+  text-transform:uppercase;
+} 
+
+
+h1, h2, h3{
+    color: red;
+}
+
+h1 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+    
+}
+
+li em{
+    font-weight: bold;
+} 
+
+.blue-painter{
+    color: blue;
+}
+
+.pink-color{
+    background-color: pink;
+}
+/* .pink{
+    background-color: pink;
+} */
+
+.ally-hover:hover{
+    /* color: black; */
+    font-weight: bold;
+}
+
+.ally-hover-orange a:hover{
+    color: orange;
+}
+.ally-hover-green a:hover{
+    color: green;
+}
+.ally-hover-yellow a:hover{
+    color: yellow;
+}
+.ally-hover-black a:hover{
+    color: black;
+}
