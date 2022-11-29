@@ -34,9 +34,13 @@ let menor = numbers[0];
 //     console.log('Nenhum valor impar encontrado')
 // }
 
-for (let i = 0; i<numbers.length; i++){
-    if(menor > numbers[i]){
-        menor = numbers[i]
-    }    
- }  
- console.log(menor)
+// for (let i = 0; i<numbers.length; i++){
+//     if(menor > numbers[i]){
+//         menor = numbers[i]
+//     }    
+//  }  
+//  console.log(menor)
+
+for(let i = 1; i<=25;i++){
+    console.log(i)
+}
