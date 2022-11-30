@@ -8,11 +8,27 @@
 // console.log(fatorial)
 
 
-let word = 'tryber';
-let reverseWord = [];
+// let word = 'carro';
+// let reverseWord = [];
 
-for (let index = 5; index >= 0; index--) {
-    reverseWord.push(word[index])
+// for (let index = 5; index >= 0; index--) {
+//     reverseWord.push(word[index])
+// }
+
+// console.log(reverseWord.join(''))
+
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+let first = array[0];
+let menor = array[0];
+
+for(let index = 0; index<array.length; index += 1){
+    if(array[index].length > first.length){
+        first = array[index]
+    }
+    if(array[index].length < menor.length){
+        menor = array[index]
+
+    }
 }
-
-console.log(reverseWord.join(''))
+console.log(first)
+console.log(menor);
