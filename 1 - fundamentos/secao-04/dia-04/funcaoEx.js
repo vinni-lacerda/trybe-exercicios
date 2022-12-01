@@ -46,20 +46,51 @@
 
 
 
-let nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']
+// let nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']
 
-function biggestName(nomes){
-    let firstName = nomes[0]
+// function biggestName(nomes){
+//     let firstName = nomes[0]
 
-    for (let index = 0; index < nomes.length; index++) {
+//     for (let index = 0; index < nomes.length; index++) {
 
-        if(nomes[index].length > firstName.length){
-            firstName = nomes[index]
-       }
+//         if(nomes[index].length > firstName.length){
+//             firstName = nomes[index]
+//        }
+//     }
+
+//     return firstName
+
+// }
+
+// console.log(biggestName(nomes))
+
+// let arrayInteiro = [2, 3, 2, 5, 8, 2, 3];
+
+// let count = 0;
+// function mostRepeat (arrayInteiro){
+//     for(let index = 0; index < arrayInteiro; index += 1){
+       
+//         for(let secondIndex = 0; secondIndex<arrayInteiro.length; secondIndex += 1){
+//             if(arrayInteiro[index] == arrayInteiro[secondIndex]){
+//                 count++
+//             }
+//         }
+//     }
+//     return count
+// };
+
+
+// console.log(mostRepeat(arrayInteiro))
+
+
+function totalSum (n){
+    let sum = 0;
+
+    for (let index = 1; index <= n; index += 1) {
+        //console.log(index)
+         sum += index
     }
-
-    return firstName
-
+    return sum
 }
 
-console.log(biggestName(nomes))
+console.log(totalSum(5));
