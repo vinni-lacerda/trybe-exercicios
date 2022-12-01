@@ -49,7 +49,13 @@
 //   console.log(numeroAleatorio());
   
 
-const hello = (nome) => { return `Olá, ${nome}!` }
+// const hello = (nome) => { return `Olá, ${nome}!` }
+//   let nome = 'Ivan';
+//   console.log(hello(nome));
+
+const nomeCompleto = (nome, sobrenome) => {return `${nome} ${sobrenome}`}
+
   let nome = 'Ivan';
-  console.log(hello(nome));
+  let sobrenome = 'Pires';
+  console.log(nomeCompleto(nome, sobrenome));
 
