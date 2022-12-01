@@ -83,14 +83,28 @@
 // console.log(mostRepeat(arrayInteiro))
 
 
-function totalSum (n){
-    let sum = 0;
+// function totalSum (n){
+//     let sum = 0;
 
-    for (let index = 1; index <= n; index += 1) {
-        //console.log(index)
-         sum += index
+//     for (let index = 1; index <= n; index += 1) {
+//         //console.log(index)
+//          sum += index
+//     }
+//     return sum
+// }
+
+// console.log(totalSum(5));
+
+let word = 'trybe'
+let wordArr = word.split('')
+let endingWord = 'be'
+
+function wordVerify(word, endingWord){
+    for(let index = 0; index<wordArr.length; index += 1){
+        console.log(wordArr[index].length -1)
     }
-    return sum
 }
 
-console.log(totalSum(5));
+console.log(wordVerify(word, endingWord))
+
+console.log(wordArr.length-1)
