@@ -36,22 +36,11 @@
 
 
 
-// for(let index = 2; index<=50; index += 1){
-//     //console.log(index);
-//     if(index % 2 !=0 && index % 3 != 0){
+for(let index = 2; index<=50; index += 1){
+    //console.log(index);
+    if(index % 2 !=0 && index % 3 != 0){
 
-//     }
-// }
-
-
-let str = "trybe";
-let strStorage = str.split("");
-str = "";
-
-console.log(strStorage.length);
-
-for(index = strStorage.length -1; index >= 0; index --){
-    str += strStorage[index]
+    }
 }
 
-console.log(str);
+

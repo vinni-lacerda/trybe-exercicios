@@ -41,6 +41,12 @@ let menor = numbers[0];
 //  }  
 //  console.log(menor)
 
-for(let i = 1; i<=25;i++){
-    console.log(i/2)
+// for(let i = 1; i<=25;i++){
+//     console.log(i/2)
+// }
+
+for(let i=1 ; i<=100; i++){
+    sum+= i
 }
+
+console.log(sum)
