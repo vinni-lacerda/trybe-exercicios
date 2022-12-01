@@ -45,6 +45,11 @@
 //   }
 //   console.log(numeroAleatorio());
   
-const numeroAleatorio = () => {return Math.random()  }
-  console.log(numeroAleatorio());
+// const numeroAleatorio = () => {return Math.random()  }
+//   console.log(numeroAleatorio());
   
+
+const hello = (nome) => { return `Olá, ${nome}!` }
+  let nome = 'Ivan';
+  console.log(hello(nome));
+
