@@ -66,6 +66,18 @@
         mainHeader.innerText = 'Desafio - JavaScript'
       }
       solveHeader();
+      
+      function capitalize(){
+        const capitalizeP = document.getElementsByTagName('p')[0];
+         capitalizeP.innerText = capitalizeP.innerText.toUpperCase();
+      }
+      capitalize();
+
+      function showAllParagraphs(){
+        const allParagraphs = document.querySelectorAll('p');
+        console.log(allParagraphs);
+      }
+      showAllParagraphs();
     </script>
   </body>
 </html>
