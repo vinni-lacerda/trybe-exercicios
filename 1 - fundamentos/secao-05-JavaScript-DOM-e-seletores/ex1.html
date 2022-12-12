@@ -42,8 +42,24 @@
       </section>
     </main>
     <script>
-      const paragraph = document.getElementsByTagName('p')
-      console.log(paragraph)
+      function changeText(){
+        const paragraph = document.getElementsByTagName('p')[1];
+
+        paragraph.innerText = 'Me vejo empregado, na profissão que eu amo, participando de varios eventos de tech e feliz comigo mesmo'
+        } 
+      changeText()
+
+      function changeMainColor(){
+        const mainContent = document.getElementsByClassName('main-content')[0];
+        mainContent.style.backgroundColor = 'rgb(76,164,109)'
+      }
+      changeMainColor();
+
+      function changeCenterColor(){
+        const centerContent = document.getElementsByClassName('center-content')[0]
+        centerContent.style.backgroundColor = 'white'
+      }
+      changeCenterColor();
     </script>
   </body>
 </html>
