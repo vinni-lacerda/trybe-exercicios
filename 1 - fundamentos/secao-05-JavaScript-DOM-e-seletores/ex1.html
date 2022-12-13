@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      function changeText(){
+        const paragraph = document.getElementsByTagName('p')[1];
+
+        paragraph.innerText = 'Me vejo empregado, na profissão que eu amo, participando de varios eventos de tech e feliz comigo mesmo'
+        } 
+      changeText()
+
+      function changeMainColor(){
+        const mainContent = document.getElementsByClassName('main-content')[0];
+        mainContent.style.backgroundColor = 'rgb(76,164,109)'
+      }
+      changeMainColor();
+
+      function changeCenterColor(){
+        const centerContent = document.getElementsByClassName('center-content')[0]
+        centerContent.style.backgroundColor = 'white'
+      }
+      changeCenterColor();
+
+      function solveHeader(){
+        const mainHeader = document.getElementsByTagName('h1')[0];
+        mainHeader.innerText = 'Desafio - JavaScript'
+      }
+      solveHeader();
+      
+      function capitalize(){
+        const capitalizeP = document.getElementsByTagName('p')[0];
+         capitalizeP.innerText = capitalizeP.innerText.toUpperCase();
+      }
+      capitalize();
+
+      function showAllParagraphs(){
+        const allParagraphs = document.querySelectorAll('p');
+        console.log(allParagraphs);
+      }
+      showAllParagraphs();
+    </script>
+  </body>
+</html>
